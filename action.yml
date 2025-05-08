@@ -1,20 +1,20 @@
-name: Feed Generator 
-author: Frandel Wanjawa
-description: feed generator for podcasts
-runs
+name: "Feed Generator"
+author: "Frandel Wanjawa"
+description: "feed generator for podcasts"
+runs:
   using :"docker"
   image: "Dockerfile"
-branding
+branding:
   icon:"git branch"
   color: "blue"
 
 inputs:
   email:
-    description:commit's source email
+    description: commit's source email
     required: true
     default: ${{github.actor}}@localhost
 
   name:
-    description:commit's source name
+    description: commit's source name
     required: true
     default: ${{github.actor}}
