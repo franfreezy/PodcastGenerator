@@ -1,4 +1,4 @@
-name: "Feed Generator"
+name: "Feed Generator for Podcasts"
 author: "Frandel Wanjawa"
 description: "feed generator for podcasts"
 runs:
