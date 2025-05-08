@@ -2,10 +2,10 @@ name: "Feed Generator"
 author: "Frandel Wanjawa"
 description: "feed generator for podcasts"
 runs:
-  using :"docker"
+  using : "docker"
   image: "Dockerfile"
 branding:
-  icon:"git branch"
+  icon: "git-branch"
   color: "blue"
 
 inputs:
