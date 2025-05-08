@@ -3,7 +3,7 @@ author: Frandel Wanjawa
 description: feed generator for podcasts
 runs
   using :"docker"
-  image: "dockerfile"
+  image: "Dockerfile"
 branding
   icon:"git branch"
   color: "blue"
